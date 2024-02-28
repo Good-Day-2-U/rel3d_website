@@ -1,0 +1,276 @@
+:root {
+  --backgroundC: #2B3499;
+  --fontC: #1a1a1a;
+  --bodysC: #FF6C22;
+  --4thC: #FFD099;
+  --borderC: #FF9209;
+}
+
+
+body {
+  margin: 0;
+  border: var(--borderC) 1.5rem solid;
+  background-color: var(--backgroundC);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainBody {
+  /* width: 830px; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+}
+
+#mainGalleryLinks {
+  display: flex;
+  gap: 1rem;
+}
+
+#homeToGalleryLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--fontC);
+  background-color: var(--bodysC);
+  width: 25rem;
+  height: 4rem;
+  border: .25rem solid var(--borderC);
+  border-radius: 1.25rem;
+  /* margin: 3rem; */
+}
+
+#homeToMINELink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--fontC);
+  background-color: var(--bodysC);
+  width: 25rem;
+  height: 4rem;
+  border: .25rem solid var(--borderC);
+  border-radius: 1.25rem;
+  /* margin: 3rem; */
+}
+
+
+.mainMarmosetSceneTitle {
+  font-size: 2rem;
+  color: var(--fontC);
+  background-color: var(--4thC);
+  width: 40rem;
+  height: 4rem;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: .25rem solid var(--borderC);
+  border-radius: 1.25rem;
+}
+
+#mainMarmosetScene {
+  border: .5rem solid var(--borderC);
+}
+
+.lazyload {
+  width: 12rem;
+}
+.LLdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+  flex-wrap: wrap;
+}
+
+.LLdiv a img {
+  border: .25rem solid var(--borderC);
+  min-height: 10rem;
+}
+
+.div1 {
+  border: .25rem solid var(--borderC);
+  margin-top: 3rem;
+  height: 8rem;
+  width: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bodysC);
+  border-radius: 5rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#tp1 {
+  margin: 0.5rem;
+  color:var(--fontC);
+}
+
+#tp2 {
+  margin: 0.5rem;
+
+  color:var(--fontC);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50rem;
+  height: 3rem;
+  color:var(--fontC);
+  border: .25rem solid var(--borderC);
+  background-color: var(--bodysC);
+  border-radius: 2rem;
+  margin: 1rem;
+}
+
+
+
+
+
+
+/* Game Gallery */
+
+
+.GameGalleryBody {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.galleryImages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+#galleryToHomeLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+  color: var(--fontC);
+  background-color: var(--bodysC);
+  width: 30rem;
+  height: 4rem;
+  border: .25rem solid var(--borderC);
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+}
+
+.galleryImages img {
+  width: 50rem;
+  border: .25rem solid var(--borderC);
+}
+
+/* Product Gallery */
+
+.ProductGalleryBody {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+/* MINE Page */
+
+.MINEBody {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+
+
+
+
+
+/* Medai Querries */
+
+@media (max-width:800px) {
+  body {
+    max-width: 800px;
+  }
+
+  .div1 {
+    max-width: 18rem;
+  }
+
+  #homeToGalleryLink {
+    width: 16rem;
+    font-size: 1.5rem;
+    /* background-color: yellow; */
+  }
+
+  #homeToMINELink {
+    width: 16rem;
+    font-size: 1.5rem;
+    /* background-color: yellow; */
+  }
+
+  .mainMarmosetSceneTitle {
+    max-width: 18rem;
+    font-size: 1.25rem;
+  }
+
+  #mainMarmosetScene {
+    max-width: 18rem;
+  }
+
+  .LLdiv {
+    flex-direction: column;
+  }
+
+  .LLdiv a img {
+    width: 14rem;
+  }
+
+
+
+  #galleryToHomeLink {
+    max-width: 16rem;
+  }
+
+  .galleryImages img {
+    max-width: 18rem;
+    border: .25rem solid var(--borderC);
+  }
+
+  footer {
+    width: 18rem;
+  }
+}
+
+@media (max-width: 1350px) {
+  #mainGalleryLinks {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
