@@ -131,8 +131,10 @@ body {
 
 footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 0;
   width: 50rem;
   height: 3rem;
   color:var(--fontC);
@@ -140,6 +142,17 @@ footer {
   background-color: var(--bodysC);
   border-radius: 2rem;
   margin: 1rem;
+}
+
+footer p {
+  padding: 0;
+  margin: 0.1rem;
+}
+
+footer p button {
+  background-color: var(--bodysC);
+  border-radius: 10px;
+  border: 1px solid black;
 }
 
 
