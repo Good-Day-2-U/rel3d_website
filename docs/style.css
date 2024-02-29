@@ -136,6 +136,11 @@ body {
   color:var(--fontC);
 }
 
+.btn-container {
+  border: .5rem solid var(--borderC);
+  border-radius: 20px;
+}
+
 footer {
   display: flex;
   flex-direction: column;
