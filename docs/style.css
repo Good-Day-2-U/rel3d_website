@@ -221,15 +221,58 @@ footer p button {
   padding: 3rem;
 }
 
-/* MINE Page */
+/* About Page */
 
-.MINEBody {
+.AboutBody {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 3rem;
+}
+
+.aboutMeBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodysC);
+  border: .25rem solid var(--borderC);
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.linkBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bodysC);
+  border: .25rem solid var(--borderC);
+  border-radius: 3rem;
+  margin-bottom: 3rem;
+  padding: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.linkBody p {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.linkBody p a {
+  /* text-decoration: none; */
+  color: #1a1a1a;
+}
+
+.linkBody p img {
+  width: 2rem;
+  height: 2rem;
 }
 
 
