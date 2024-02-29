@@ -1,5 +1,6 @@
 :root {
-  --backgroundC: #2B3499;
+  --backgroundC: #26285f;
+  /* --backgroundC: #2B3499; */
   --fontC: #1a1a1a;
   --bodysC: #FF6C22;
   --4thC: #FFD099;
@@ -334,6 +335,13 @@ footer p button {
   footer {
     width: 18rem;
   }
+
+  .linkBody {
+    max-width: 16rem;
+    font-size: 0.75rem;
+  }
+
+
 }
 
 @media (max-width: 1350px) {
