@@ -10,7 +10,7 @@ const unHighlight = function(self) {
 
 
 
-// Copy Email
+// Copy Email address
 
 function copyEmail() {
   // Get the text field
